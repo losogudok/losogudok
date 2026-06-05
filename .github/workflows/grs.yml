@@ -17,8 +17,23 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true
           path: profile/stats.svg
+          token: ${{ secrets.PAT_FOR_PRIVATE_REPOS_STATS }}
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true
+          path: profile/streak.svg
+          token: ${{ secrets.PAT_FOR_PRIVATE_REPOS_STATS }}
+    
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&langs_count=6
+          path: profile/top-langs.svg
           token: ${{ secrets.PAT_FOR_PRIVATE_REPOS_STATS }}
 
       - name: Commit cards

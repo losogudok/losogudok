@@ -50,14 +50,9 @@
 
 ### Статистика GitHub
 
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=losogudok&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" alt="Статистика GitHub losogudok" />
-  <br><br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=losogudok&theme=tokyonight&hide_border=true&background=0D1117" alt="Стрик losogudok" />
-  <br><br>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=losogudok&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Лучшие языки losogudok" />
-</div>
-
+![Github Stats](./profile/stats.svg)
+![Streak](./profile/streak.svg)
+![Top Languages](./profile/top-langs.svg)
 ---
 
 ### Связаться со мной
