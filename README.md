@@ -2,7 +2,7 @@
   <strong>🇬🇧 English</strong> | <a href="README.ru.md">🇷🇺 Русский</a>
 </div>
 
-<h1 align="center">losogudok</h1>
+<h1 align="center">Andrey</h1>
 <h3 align="center">Software Developer | Crafting Scalable Solutions</h3>
 
 <p align="center">
