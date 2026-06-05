@@ -49,6 +49,7 @@ I am a software developer focused on building performant and scalable applicatio
 ---
 
 ### GitHub Stats
+![Stats](./profile/stats.svg)
 
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=losogudok&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" alt="losogudok's GitHub stats" />
