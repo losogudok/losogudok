@@ -1,6 +1,6 @@
 <div align="right">
   <!-- <strong>🇬🇧 English</strong> | <a href="README.ru.md">🇷🇺 Русский</a> -->
-  <strong>🇬🇧 English</strong> 
+  <!-- <strong>🇬🇧 English</strong>  -->
 </div>
 
 <h1 align="center">Andrey</h1>
