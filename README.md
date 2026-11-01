@@ -60,11 +60,15 @@ I also maintain customized forks for the FreemanVPN ecosystem: [routing template
 | Product interfaces | React, REST / GraphQL APIs, Telegram bots and Mini Apps |
 | Delivery & quality | Docker, Linux, GitHub Actions, unit tests, Playwright, code review |
 
-### Recent engineering activity
+### GitHub Stats
 
 ![My commits, including forks](./profile/commits.svg)
 
-<sub>Updated daily. Unique commits authored by me in the past 365 days, including accessible private repositories and forks. Uses commit dates and default branches; shared hashes count once. GitHub's native contribution calendar uses different rules.</sub>
+Unique commits authored by me in the past 365 days, including forks and private repositories accessible to the stats token. Counts use commit dates and default branches; shared commit hashes count once. Updated daily. GitHub's contribution calendar uses different rules.
+
+![Github Stats](./profile/stats.svg)
+![Streak](./profile/streak.svg)
+![Top Languages](./profile/top-langs.svg)
 
 ---
 
