@@ -1,85 +1,71 @@
-<div align="right">
-  <!-- <strong>🇬🇧 English</strong> | <a href="README.ru.md">🇷🇺 Русский</a> -->
-  <!-- <strong>🇬🇧 English</strong>  -->
-</div>
+English · [Русский](README.ru.md)
 
-<h1 align="center">Andrey</h1>
-<h3 align="center">Software Developer | Crafting Scalable Solutions</h3>
+# Andrey Kostin
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Building+robust+microservices;Creating+dynamic+web+apps;Always+learning+new+tech" alt="Typing SVG" />
-</p>
+### AI Agent Developer · MCP · Tool Calling · Backend Integration
 
----
+I connect LLMs to application data, external APIs, and business workflows. My foundation is **10+ years of JavaScript / TypeScript engineering**, fullstack product delivery, and team leadership.
 
-### About Me
+**Open to AI Agent Developer and LLM Integration roles · Remote**
 
-I am a software developer focused on building performant and scalable applications. My objective is to design reliable and intuitive solutions.
-
-- Current focus: **High-performance Telegram bot storefronts and Web Apps**
-- I utilize **AI Agents (Codex, Claude Code, GitHub Copilot)** for architecture design, rapid prototyping, and workflow optimization.
-- Professional interests: **AI Implementation & Integration, Advanced Cloud Architecture, and Systems Design**
-- Core competencies: **TypeScript, Node.js, and React**
-- Environment: **15 years of Linux experience**, currently using **Arch Linux** as my primary system
+[Résumé](RESUME.md) · [Email](mailto:losogudok@gmail.com) · [Telegram](https://t.me/gordonfreemanvpn)
 
 ---
 
-### Featured Projects
+### What I bring
 
-- **Algorithmic Crypto Trading Bot**: Developed a successful and performant algorithmic trading bot executing automated strategies on major cryptocurrency exchanges. Built for speed and reliability.
-  - **Tech Stack:** Python, PostgreSQL, Redis, Docker
-- **Telegram VPN Shop Bot**: Built an automated Telegram storefront that handles user subscriptions and seamless payments for a personal VPN service. Provides users with instant access and account management.
-  - **Tech Stack:** TypeScript, Node.js, PostgreSQL
+- **Agents that can use real systems.** MCP servers, function calling, JSON Schema tool definitions, and integrations with APIs and databases.
+- **Engineering around the model.** Clear tool boundaries, structured results, partial-failure handling, tests, and production diagnostics.
+- **Product ownership.** Turning a business problem into requirements, an MVP, priorities, releases, and ongoing support.
+- **Commercial experience behind the AI work.** Previously at Yandex, Lamoda, and Kaspersky Lab; built fintech products, led a JavaScript team, and taught JavaScript at Netology.
 
----
+My applied AI work is in personal and project-based development since 2025. My longer commercial background is in web and backend engineering.
 
-### Tech Stack
+### Selected work
 
-<div align="center">
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</div>
+#### [MCP diagnostics for a trading bot](projects/trading-diagnostics.md)
 
----
+**Python · FastMCP · PostgreSQL · OKX API**
 
-### GitHub Stats
+Built a read-only MCP server that brings exchange and database state into one structured diagnostic snapshot. It reports source availability and explainable discrepancies, with unit tests for diagnostic rules. The diagnostics tools cannot place or cancel orders.
+
+Personal project; implementation is private. **[Read the engineering case study →](projects/trading-diagnostics.md)**
+
+#### [GlampBot — a booking assistant](projects/glampbot.md)
+
+**TypeScript · Node.js · OpenAI SDK · LiteLLM · grammY · Prisma**
+
+A Telegram assistant prototype that checks accommodation availability, retrieves property information, and creates booking drafts through application tools. Tool parameters use JSON Schema, and the application supplies the Telegram user identity.
+
+Prototype. **[See the tool-calling flow →](projects/glampbot.md)**
+
+#### [Agent-assisted delivery in Lush Guesser](https://github.com/losogudok/lush-guesser/tree/main/.sandcastle)
+
+**TypeScript · Sandcastle · Docker · React · NestJS · Playwright**
+
+A public planning → implementation → review → merge workflow for GitHub issues, using Docker sandboxes and structured plan validation. The host application is a scent quiz with a React frontend, NestJS backend, and browser tests.
+
+**[Workflow source →](https://github.com/losogudok/lush-guesser/blob/main/.sandcastle/main.mts)** · **[Application →](https://github.com/losogudok/lush-guesser)** · **[Browser tests →](https://github.com/losogudok/lush-guesser/tree/main/tests/e2e)**
+
+### Engineering beyond AI
+
+I also maintain customized forks for the FreemanVPN ecosystem: [routing templates](https://github.com/losogudok/freemanvpn-routing), [GeoSite](https://github.com/losogudok/freemanvpn-geosite), [GeoIP](https://github.com/losogudok/freemanvpn-geoip), and a [Remnawave subscription storefront](https://github.com/losogudok/remnawave-minishop). These projects cover client compatibility, networking, automation, and service operations.
+
+### Stack
+
+| Area | Tools |
+| --- | --- |
+| AI integrations | MCP / FastMCP, LLM APIs, function calling, JSON Schema, OpenAI SDK |
+| Backend & data | TypeScript, Node.js, Python, NestJS, Express, PostgreSQL, Redis, MongoDB |
+| Product interfaces | React, REST / GraphQL APIs, Telegram bots and Mini Apps |
+| Delivery & quality | Docker, Linux, GitHub Actions, unit tests, Playwright, code review |
+
+### Recent engineering activity
 
 ![My commits, including forks](./profile/commits.svg)
 
-Unique commits authored by me in the past 365 days, including forks and private repositories accessible to the stats token. Counts use commit dates and default branches; shared commit hashes count once. Updated daily. GitHub's contribution calendar uses different rules.
+<sub>Updated daily. Unique commits authored by me in the past 365 days, including accessible private repositories and forks. Uses commit dates and default branches; shared hashes count once. GitHub's native contribution calendar uses different rules.</sub>
 
-![Github Stats](./profile/stats.svg)
-![Streak](./profile/streak.svg)
-![Top Languages](./profile/top-langs.svg)
-<!-- <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=losogudok&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" alt="losogudok's GitHub stats" />
-  <br><br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=losogudok&theme=tokyonight&hide_border=true&background=0D1117" alt="losogudok's Streak" />
-  <br><br>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=losogudok&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="losogudok's Top Languages" />
-</div> -->
 ---
 
-### Contact Me
-
-<div align="center">
-  <a href="mailto:losogudok@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://t.me/gordonfreemanvpn">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
-  </a>
-</div>
-
-
-<br>
-<p align="center">
-  <i>Open to professional collaboration.</i>
-</p>
+**Hiring for agents, MCP tooling, or LLM integrations?** [Email me](mailto:losogudok@gmail.com) with the role and the problem your team is solving.
