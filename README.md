@@ -51,6 +51,10 @@ I am a software developer focused on building performant and scalable applicatio
 
 ### GitHub Stats
 
+![My commits, including forks](./profile/commits.svg)
+
+Unique commits authored by me in the past 365 days, including forks and private repositories accessible to the stats token. Counts use commit dates and default branches; shared commit hashes count once. Updated daily. GitHub's contribution calendar uses different rules.
+
 ![Github Stats](./profile/stats.svg)
 ![Streak](./profile/streak.svg)
 ![Top Languages](./profile/top-langs.svg)
